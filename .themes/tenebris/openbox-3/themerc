@@ -1,0 +1,92 @@
+#============================================================
+#     __                      ___.         .__        
+#   _/  |_  ____   ____   ____\_ |_________|__| ______
+#   \   __\/ __ \ /    \_/ __ \| __ \_  __ \  |/  ___/
+#    |  | \  ___/|   |  \  ___/| \_\ \  | \/  |\___ \ 
+#    |__|  \___  >___|  /\___  >___  /__|  |__/____  >
+#              \/     \/     \/    \/              \/ 
+#
+# Author: Nicolas Palumbo - 2020
+# Repository: https://github.com/shaggyz/opebox-tenebris
+# Based on Nightmare by Maxim. Uxing pixmaps from Bear2
+#
+#============================================================
+
+#======================================
+#     Menu Settings
+#======================================
+
+menu.title.bg: raised
+menu.title.bg.color: #282828
+menu.title.text.color: #ffffff
+menu.separator.color: #ffffff
+menu.items.bg: raised
+menu.items.bg.color: #282828
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #707070
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #1b56b5
+menu.items.active.bg.border.color: #1b56b5
+menu.items.active.text.color: #ffffff
+
+#======================================
+#     Focused Window Settings
+#======================================
+
+window.active.title.bg: raised
+window.active.title.bg.color: #282828
+window.active.handle.bg: raised
+window.active.handle.bg.color: #282828
+window.active.grip.bg: parentrelative
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.*.button.*.bg: parentrelative
+window.active.button.*.image.color: #ffffff
+window.active.button.*.pressed.image.color: #1b56b5
+window.active.button.disabled.image.color: #ffffff
+
+#======================================
+#     Unfocused Window Settings
+#======================================
+
+window.inactive.title.bg: raised
+window.inactive.title.bg.color: #282828
+window.inactive.handle.bg: raised
+window.inactive.handle.bg.color: #282828
+window.inactive.grip.bg: parentrelative
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #666666
+window.inactive.button.*.image.color: #888888
+
+#======================================
+#     Global Width Settings
+#======================================
+
+padding.width: 5
+padding.height: 5
+border.width: 1
+window.handle.width: 3
+window.client.padding.width: 0
+menu.overlap.x: -5
+
+#======================================
+#     Miscellaneous Settings
+#======================================
+
+border.color: #282828
+menu.border.color: #282828
+
+#======================================
+#     Osd
+#======================================
+
+osd.hilight.bg: flat border
+osd.hilight.bg.color: #282828
+osd.hilight.bg.border.color: #282828
+
+#======================================
+#     Title Justification
+#======================================
+
+menu.title.text.justify: center
+window.label.text.justify: center

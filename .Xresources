@@ -1,0 +1,49 @@
+! URXVT
+URxvt.foreground: #ffffff
+URxvt.background: #282828
+
+!Black
+URxvt.color0: #000000
+URxvt.color8: #000000
+!Red
+URxvt.color1: #f25c5c
+URxvt.color9: #f25c5c
+!Green
+URxvt.color2: #8fed80
+URxvt.color10: #8fed80
+!Yellow
+URxvt.color3: #edeb80
+URxvt.color11: #edeb80
+!Blue
+URxvt.color4: #4a74e8
+URxvt.color12: #4a74e8
+!Purple
+URxvt.color5: #af80e8
+URxvt.color13: #af80e8
+!Cyan
+URxvt.color6: #74e5ed
+URxvt.color14: #74e5ed
+!White
+URxvt.color7: #FFFFFF
+URxvt.color15: #FFFFFF
+
+
+URxvt.scrollBar:false
+URxvt.font: xft:RobotoMono-Regular:pixelsize=13
+
+! xrdb ~/.Xresources
+
+! ROFI
+rofi.width: 50
+rofi.lines: 10
+
+! font
+rofi.font: RobotoMono-Light 15
+! background1, foreground1, background2, select, foreground2
+rofi.color-normal: #282828,  #FFFFFF,  #282828,  #1b56b5,  #FFFFFF
+
+!  background, border.
+rofi.color-window: #282828, #1b56b5
+rofi.case-sensitive: false
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
